@@ -1,0 +1,249 @@
+
+
+
+
+
+body{
+    font-family:sans-serif;
+    margin: 0; 
+    background-color: beige;
+   
+}
+    
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-family: Merriweather;
+    font-size: 20px;
+color: black solid;
+}
+
+header{
+display:flex ;
+height: 125px;
+background-color: rgb(245, 141, 4);
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+
+
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.logo img {
+    height:150px;
+    margin-right: 10px;
+    width:160px;
+
+}
+
+nav a{
+font-size: 28px;
+padding-right: 10px;
+margin: 6px;
+font-family: fantasy;
+
+
+}
+nav a:hover{
+    color: rgb(57, 210, 252);
+    text-decoration: none;
+    background: #e04b25;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.8s ease 0s;
+}
+
+h2{
+font-family: Pop Art;
+font-size: 80px;
+margin-bottom: 10px;
+font-size: 110px;
+margin-top: 10px;
+}
+h4{
+    font-family:italiana;
+    font-size: 35px;
+margin: 10px;
+
+}
+h3{
+    font-size: 50px;
+}
+
+.Primer-section{
+    margin: 0px;
+    height:800px;
+    padding: 0px;
+    background: url(./assets/img/pizza-americana.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family:italiana;
+    font-size: 65px;
+    }
+    .Primer-section{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+    }
+.Segundo-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: rgb(214, 165, 5) 5px solid;
+    
+
+}
+.Segundo-section img{
+    width: 240px;
+}
+.padre-cards{
+display: flex;
+flex-wrap: wrap;
+flex: 30%;
+}
+
+.card{
+    font-family: italiana;
+    font-size: 10px;
+    padding: 3px 10px;
+     width: 30%;
+     border:5px solid black;
+    margin:5px;
+    border-radius: 20px;
+
+}
+
+.ov-btn-grow-box {
+    background: #ff9933 ; 
+    color:black; 
+    border: 2px solid #4741d7; 
+    padding: 16px 20px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+font-size: 15px;
+  }
+  .ov-btn-grow-box:hover {
+    color:black;
+  }
+  .ov-btn-grow-box::after {
+    content: "";
+    background: #66ccff;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease;
+  }
+  .ov-btn-grow-box:hover::after {
+    transition: all 0.3s ease-out;
+    transform: scale(1, 1);
+  }
+
+.postres{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 30%;
+    width: 100%;
+}
+.card-postre{
+    font-family: italiana;
+    font-size: 10px;
+    padding: 3px 10px;
+     width: 30%;
+     border:5px solid black;
+    margin:5px;
+    border-radius: 30px;
+}
+.precio-menu{
+margin: 20px;
+font-size: 30px;
+}
+
+
+.Tercer-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+
+.Cuarto-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Quinto-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Formulario{
+width: 400px;
+background: #ff9933;
+padding: 30px;
+margin: auto;
+margin-top: 20px;
+border-radius: 5px;
+font-family: italiana;
+font-size: 18px;
+}
+.controls{
+    width: 100%;
+    background: beige ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px  rgb(0, 204, 255) solid;
+}
+.introduccion{
+width: 1200px;
+font-size: 28px;
+margin-top: 0px;
+font-family:Arial, Helvetica, sans-serif ;
+display: flex;
+ flex-wrap: nowrap;
+
+}
+.animacionpizza {
+    width: 250px;
+    height: 250px;
+}
+@media (max-width: 700px){
+    
+}
+.historia{
+    padding: 3px 10px;
+    border: rgb(5, 200, 214) 5px solid;
+    border-radius: 30px;
+    font-size: 21px;
+    font-family: italiana;
+     
+}
+
+html{
+    scroll-behavior: smooth;
+}
