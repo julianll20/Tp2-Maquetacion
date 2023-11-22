@@ -1,0 +1,114 @@
+
+
+
+
+
+body{
+    font-family:sans-serif;
+    margin: 0; 
+    background-color: beige;
+   
+}
+    
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-family: Merriweather;
+    font-size: 20px;
+color: black solid;
+}
+
+header{
+display:flex ;
+height: 125px;
+background-color: rgb(245, 141, 4);
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+
+
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.logo img {
+    height:150px;
+    margin-right: 10px;
+    width:160px;
+
+}
+
+nav a{
+font-size: 28px;
+padding-right: 10px;
+margin: 6px;
+font-family: fantasy;
+
+
+}
+nav a:hover{
+    color: rgb(57, 210, 252);
+    text-decoration: none;
+    background: #e04b25;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.8s ease 0s;
+}
+
+h2{
+font-family: Pop Art;
+font-size: 80px;
+margin-bottom: 10px;
+font-size: 110px;
+margin-top: 10px;
+}
+h4{
+    font-family:italiana;
+    font-size: 35px;
+margin: 10px;
+
+}
+h3{
+    font-size: 50px;
+}
+.Cuarto-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+    .introduccion{
+    width: 1200px;
+    font-size: 28px;
+    margin-top: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: flex;
+     flex-wrap: nowrap;
+    
+    }
+    .animacionpizza {
+        width: 250px;
+        height: 250px;
+    }
+    @media (max-width: 700px){
+        
+    }
+    .historia{
+        padding: 3px 10px;
+        border: rgb(5, 200, 214) 5px solid;
+        border-radius: 30px;
+        font-size: 21px;
+        font-family: italiana;
+         
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
